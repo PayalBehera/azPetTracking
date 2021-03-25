@@ -135,7 +135,7 @@ export default {
       initialVehicle: [],
 
       numDeltas: 100,
-      delay: 20, //milliseconds
+      delay: 20, 
       i: 0,
       deltaLat: 0,
       deltaLng: 0,
