@@ -1,0 +1,68 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+
+
+@import "~@coreui/coreui/scss/variables";
+
+
+
+// body {
+//     background-color: white;
+//     color: black;
+// }
+
+.c-main {
+    background-color: white;
+    color: #35495e;
+}
+
+.card-header {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+label{
+    font-style: italic;
+}
+
+.form-control {
+    font-size: 0.8rem;
+    color: black;
+    height: calc(2.2em + 0.75rem + 2px);
+}
+
+
+.error {
+    margin: 2px;
+    font-size: 0.6rem;
+    color: red;
+}
+
+.th-style {
+    color: #03045E ;
+    font-size: 1rem;
+    font-weight: 450;   
+}
+
+.td-style {
+    color: #03045E ;
+    font-size: 0.9rem;
+    font-weight: 400;   
+    white-space: nowrap;
+}
+
+ .table-style {
+    width: 80%;
+}
+
+a.text-primary{
+    color: #03045E;
+    text-decoration: underline;
+}
